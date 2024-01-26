@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.logo {
+    cursor: pointer;
+    width: 13px;
+}
+
+.promo {
+    backdrop-filter: blur(5px);
+    height: 45px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding-left: 90px;
+}
+
+nav {
+    display: flex;
+    gap: 41px;
+}
+
+nav a {
+    color: black;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+    text-decoration: none;
+}
+
+.icons {
+    display: flex;
+    gap: 41px;
+}
+
+.icon {
+    width: 13px;
+    cursor: pointer;
+}
+
+.icon:hover {
+    transform: scale(1.08);
+}
+
+.icon:active {
+    transform: scale(1);
+}
+
+.promo_two {
+    margin-top: 45px;
+    background-color: #f4f4f482;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    background: #f5f5f7;
+    border-radius: 4px;
+    padding: 14px 0;
+}
+
+.first {
+    font-size: 14px;
+    line-height: 1.28577;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-weight: 600;
+}
+
+.first a {
+    text-decoration: none;
+    color: blue;
+}
+
+.second {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 14px;
+}
+
+.third {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 14px;
+
+}
+
+.four {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 14px;
+}
+
+.first h4 {
+    font-size: 14px;
+    line-height: 1.28577;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-weight: 600;
+}
+
+.second img {
+    width: auto;
+    height: 24px;
+}
+
+.second h4 {
+    min-width: 140px;
+    max-width: 140px;
+    margin-left: 12px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.third h4 {
+    min-width: 140px;
+    max-width: 140px;
+    margin-left: 12px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.third img {
+    width: auto;
+    height: 24px;
+}
+
+.four h4 {
+    min-width: 140px;
+    max-width: 140px;
+    margin-left: 12px;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+}
+
+.four img {
+    width: auto;
+    height: 24px
+}
+
+.new {
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+}
+
+.left_box {
+    max-width: 640px;
+    margin-left: 100px;
+}
+
+.double_main {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: flex-start;
+    padding: 52px 0 22px;
+}
+
+.left_box h4 {
+    font-size: 17px;
+    color: red;
+}
+
+.left_box h1 {
+    display: block;
+    font-size: 60px;
+}
+
+.left_box h5 {
+    font-size: 14px;
+}
+
+.right_box a {
+    text-decoration: none;
+    color: black;
+}
+
+.right_box button {
+    padding: 10px 10px;
+    border-radius: 40px;
+    display: flex;
+    margin-left: 80%;
+}
+
+.image img {
+    width: 1100px;
+    height: 600px;
+    padding: 0px 0px 100px 200px;
+    top: 550px;
+    right: 500px;
+    border-radius: 30px;
+    position: fixed;
+    transform: translate(5%, -30%);
+    z-index: 999;
+}
+.dd {
+margin-top: 100px;
+    padding-top: 450px;
+padding-left: 930px;
+
+}
+.dd a {
+    text-decoration: none;
+color: gray;
+}
+.iphone_15pro {
+    font-family: 'Roboto', sans-serif;
+padding: 0px 5px 0px 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid;
+    border-radius: 10px;
+    height: 90px;
+    font-size: 15px;
+    width: 350px;
+}
+.iphone_15promax {
+    font-family: 'Roboto', sans-serif;
+padding: 0px 5px 0px 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 930px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid;
+    border-radius: 15px;
+    height: 90px;
+    font-size: 15px;
+    width: 350px;
+}
+.chtoto {
+    padding: 0px 5px 0px 5px;
+    background-color: gray;
+    color: #252525;
+    margin-top: 10px;
+    margin-left: 930px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid;
+    border-radius: 10px;
+    height: 90px;
+    font-size: 15px;
+    width: 350px;
+}
+.chtoto a {
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+.bottom_main {
+    padding-left: 1100px;
+    margin-top: 100px;
+}
+.finish_text a {
+    text-decoration: none;
+    color: gray;
+}
+.color_text {
+    padding-top: 20px;
+}
+
+.natural_titanium button{
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: burlywood;
+}
+.blue_titanium button {
+    padding-top: 5px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: darkblue;
+}
+.white_titanium button {
+    padding-top: 5px;
+    border: 1px solid;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+}
+.black_titanium button {
+    padding-top: 5px;
+    border: 1px solid;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+}
+.buttons {
+    padding-top: 40px;
+    gap: 10px;
+    display: flex;
+}
+.finishes_text {
+    padding-left: 1050px;
+margin-top: 300px;
+}
+.text_finish a {
+    text-decoration: none;
+    color: gray;
+}
+.gb256 {
+    font-family: 'Roboto', sans-serif;
+margin: 10px 5px 0px 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid;
+    border-radius: 10px;
+    height: 90px;
+    font-size: 15px;
+    width: 350px;
+}
+.gb512 {
+    font-family: 'Roboto', sans-serif;
+margin: 10px 5px 0px 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid;
+    border-radius: 10px;
+    height: 90px;
+    font-size: 15px;
+    width: 350px;
+}
+.tb1 {
+    font-family: 'Roboto', sans-serif;
+margin: 10px 5px 0px 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid;
+    border-radius: 10px;
+    height: 90px;
+    font-size: 15px;
+    width: 350px;
+}
+
+
+
+
